@@ -23,6 +23,7 @@ In your `.zshrc` file:
     zsh_trace_end()
 
 Or using `antigen`:
+
     # .zshrc first commands
     # source antigen
     source /path/to/antigen
