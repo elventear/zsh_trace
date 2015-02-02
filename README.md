@@ -16,6 +16,28 @@ In your `.zshrc` file:
     # enable tracing
     zsh_trace_start()
 
+    #
+    # TRACED CODE
+    #
+
     # .zshrc last commands
     zsh_trace_end()
+
+Or using `antigen`:
+    # .zshrc first commands
+    # source antigen
+    source /path/to/antigen
+    antigen bundle elventear/zsh_trace
+
+    # enable tracing
+    zsh_trace_start()
+
+    #
+    # TRACED CODE
+    #
+
+    # .zshrc last commands
+    zsh_trace_end()
+
+
 
