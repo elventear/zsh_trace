@@ -1,5 +1,4 @@
 # zsh_trace
-ZSH Plugin to Enable Tracing of ZSH init process
 
 Generates a tracing log of the init process of `zsh`. It has been shamelessly 
 lifted from a [StackOverflow](http://stackoverflow.com) 
